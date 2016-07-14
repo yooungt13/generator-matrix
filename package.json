@@ -1,0 +1,31 @@
+{
+  "name": "generator-matrix",
+  "version": "1.3.6",
+  "description": "Scaffolding based on koa",
+  "files": [
+    "generators/app"
+  ],
+  "main": "generators/app/index.js",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "yeoman-generator": "^0.22.5",
+    "yosay": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yooungt13/generator-matrix.git"
+  },
+  "keywords": [
+    "framework",
+    "koa",
+    "scaffold",
+    "webapp",
+    "front-end",
+    "yeoman-generator"
+  ],
+  "author": "youngtian13",
+  "license": "MIT"
+}
